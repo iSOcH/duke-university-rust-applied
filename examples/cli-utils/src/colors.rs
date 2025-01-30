@@ -15,10 +15,22 @@ pub fn red(s: &str) -> String {
     format!("\x1b[31m{}\x1b[0m", s)
 }
 
+/// Returns a string with the ANSI escape code for green.
+/// # Examples:
+/// ```
+/// use cli_utils::colors::*;
+/// println!("{}", green("Green"));
+/// ```
 pub fn green(s: &str) -> String {
     format!("\x1b[32m{}\x1b[0m", s)
 }
 
+/// Returns a string with the ANSI escape code for blue.
+/// # Examples:
+/// ```
+/// use cli_utils::colors::*;
+/// println!("{}", blue("Blue"));
+/// ```
 pub fn blue(s: &str) -> String {
     format!("\x1b[34m{}\x1b[0m", s)
 }
@@ -31,6 +43,7 @@ pub fn reset(s: &str) -> String {
     format!("\x1b[0m{}\x1b[0m", s)
 }
 
+/// Text formatting options like color or weight
 pub enum Color{
     Red,
     Green,

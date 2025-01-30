@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/examples/cli-utils/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/cli-utils/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/practice-internal-lab-create-a-library-with-cargo/my_client/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/examples/cli-utils/target" />
+      <excludeFolder url="file://$MODULE_DIR$/practice-internal-lab-create-a-library-with-cargo/my_client/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
