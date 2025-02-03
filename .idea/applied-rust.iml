@@ -5,8 +5,10 @@
       <sourceFolder url="file://$MODULE_DIR$/examples/cli-utils/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/examples/cli-utils/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/practice-internal-lab-create-a-library-with-cargo/my_client/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/practice-internal-lab-create-a-library-with-cargo/my_client/src/client1/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/examples/cli-utils/target" />
       <excludeFolder url="file://$MODULE_DIR$/practice-internal-lab-create-a-library-with-cargo/my_client/target" />
+      <excludeFolder url="file://$MODULE_DIR$/practice-internal-lab-create-a-library-with-cargo/my_client/src/client1/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
