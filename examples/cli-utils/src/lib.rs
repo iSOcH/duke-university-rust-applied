@@ -58,4 +58,13 @@ mod tests {
        assert_eq!(output, expected_output);
    }
 
+    #[test]
+    fn test_read_input_whitespace_start() {
+        let input = " \t foo";
+        let expected_output = "foo";
+        let mut reader = Cursor::new(input);
+        let output = _read_stdin(&mut reader);
+        assert_eq!(output, expected_output);
+    }
+
 }

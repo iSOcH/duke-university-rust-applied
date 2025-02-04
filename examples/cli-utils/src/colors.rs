@@ -58,6 +58,17 @@ pub struct ColorString {
 }
 
 impl ColorString {
+    pub fn new(color: Color, string: String) -> ColorString {
+        let mut result = ColorString {
+            color,
+            string,
+            colorized: "".into()
+        };
+        
+        result.paint();
+        result
+    }
+    
     // create a method that will use the string and color fields to create a colorized string and assign it to the colorized field
     pub fn paint(&mut self) {
         match self.color {
